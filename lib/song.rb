@@ -52,7 +52,6 @@ class Song
 
     artist = string[0]
     song_name = string[1].gsub(/.mp3/,'')
-    binding.pry
 
   end
 
