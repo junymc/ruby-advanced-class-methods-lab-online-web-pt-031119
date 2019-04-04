@@ -58,6 +58,13 @@ class Song
   end
 
   def self.create_from_filename(file_name)
+    song = Song.create
+    string = file_name.split(' - ')
+    artist = string[0]
+    song_name = string[1].gsub(/.mp3/,'')
+    song.name = song_name
+    song.artist_name = artist
+    song
   end
 
   def self.destroy_all
