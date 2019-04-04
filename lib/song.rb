@@ -48,8 +48,7 @@ class Song
   end
 
   def self.new_from_filename(file_name)
-    string = []
-    string << file_name.split(/[-,.]/)
+    string = file_name.split(/[-,.]/)
     string[2].delete
     binding.pry
   end
