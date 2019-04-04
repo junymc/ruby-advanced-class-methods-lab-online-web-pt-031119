@@ -52,6 +52,9 @@ class Song
     artist = string[0]
     song_name = string[1].gsub(/.mp3/,'')
     song = Song.new
+    song.name = song_name
+    song.artist_name = artist
+    
 
 
   end
