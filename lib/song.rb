@@ -54,7 +54,7 @@ class Song
     # artist = string[0]
     # song_name = string[1]
     # mp3 = string[2]
-    
+
   end
 
   def self.create_from_filename(file_name)
