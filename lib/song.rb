@@ -48,11 +48,11 @@ class Song
   end
 
   def self.new_from_filename(file_name)
-    # file_name.split(" - ")
-    puts "#{song.name} #{song.artist_name}"
+    file_name.split(" - ")
+    binding.pry
   end
 
-  def self.create_from_filename
+  def self.create_from_filename(file_name)
   end
 
   def self.destroy_all
