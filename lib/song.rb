@@ -51,6 +51,7 @@ class Song
     string = file_name.split(/[-,.]/)
     string.pop
     string
+    binding.pry
     # artist = string[0]
     # song_name = string[1]
     # mp3 = string[2]
